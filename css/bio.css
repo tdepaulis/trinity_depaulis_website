@@ -20,9 +20,24 @@ img {
     padding-right: 5px;
 }
 
-form, input, label {
+form, label {
     font-family: arial, sans-serif;
     color: rgb(220, 215, 211);
+    text-align: left;
+    font-size: 25px;
+}
+
+input {
+    width: 85%;
+}
+
+.email {
+    height: 80px;
+}
+
+button {
+    font-family: arial, sans-serif;
+    color: darkslategray;
     text-align: left;
     font-size: 25px;
 }
@@ -108,6 +123,14 @@ p {
     padding-left: 7%;
     padding-right: 7%;
 
+}
+
+form {
+    padding: 1.5rem 1.5rem 1.5rem 6em;
+    color: rgb(220, 215, 211);
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 25px;
 }
 
 ul {
