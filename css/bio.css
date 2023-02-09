@@ -38,12 +38,13 @@ table {
 }
 
 iframe {
-    width: 90%;
-    height: auto;
+    width: 85%;
     margin: 0 auto;
     background-color: grey;
     display: block;
     border-style:none;
+    display: center;
+    height: 710px;
 }
 
 .center {
@@ -115,10 +116,6 @@ ul {
     font-family: arial, sans-serif;
     font-size: 18px;
     list-style-image: url('img/sword.png');
-}
-
-iframe {
-    display: center;
 }
 
 li span {
