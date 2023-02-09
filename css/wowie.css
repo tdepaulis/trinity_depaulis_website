@@ -5,8 +5,7 @@ table {
     color: white;
     text-align: center;
     font-family: verdana;
-    font-size: 20px;
-    
+    font-size: 20px;  
   }
 
   ul, li {
@@ -38,26 +37,7 @@ table {
     background-color: black;
   }
   
-  h1 {
-    color: white;
-    text-align: center;
-    font-family: verdana;
-    font-size: 20px;
-  }
-  h2 {
-    color: white;
-    text-align: center;
-    font-family: verdana;
-    font-size: 20px;
-  }
-  h3 {
-    color: white;
-    text-align: center;
-    font-family: verdana;
-    font-size: 20px;
-  }
-  
-  p {
+  h1, h2, h3, p {
     color: white;
     text-align: center;
     font-family: verdana;

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Things to Include:
+    - Sections with headings
+    - Hyperlinks
+    - Images - One non-decorative and decorative
+    - Form to collect information
+        - EX: Form to send an email.
+    - Lists
+    - Semanitic text emphasis (e.g. Strong or emphasis)
+
+    Things to avoid:
+    - An internal or inline CSS
+    - Any older formatting html that should be done with CSS (e.g. Color)
+    - Any non-semantic text markup/emphasis (e.g. Bold italics)
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity's Bio</title>
+    <link rel="stylesheet" href="css/bio.css" type="text/css">
+</head>
+
+<body>
+    <h1><img class="decor" src="img/smile.jpg" alt="">Trinity's Bio<img class="decor" src="img/smile.jpg" alt=""></h1>
+    <div class="flex-container">
+        <div class="flex-child-tight">
+            <img src="img/headshot.jpg" alt="A picture of Trinity DePaulis on Ring Day with them doing a thumbs up to show off the Aggie Ring.">
+        </div>
+        <div class="flex-child">
+            <h2>About Me</h2>
+            <p>
+                Howdy! I'm Trinity DePaulis a Senior Computer Science Major at Texas A&M University!
+                I plan on moving out to Austin after I graduate and working with HEB as a Software Engineer.
+                Currently I'm doing with research with Dr. Hammond and Dr. Taele in their Sketch Recognition lab
+                where I am conducting research and writing a thesis over SketchTivity's feedback system. 
+                Outside of school I'm really into anime and Dugeons & Dragons! Currently I'm wathcing One Piece and I'm 
+                the Dungeon Master for a 5th Edition Fantasy campaign! Ask me about my capaign and I could talk for hours.
+            </p>
+            <h2>My Socials</h2>
+            <table class="center">
+                <tr> 
+                    <td><strong>Email</strong></td>
+                    <td><a href="mailto:trinitydepaulis@tamu.edu">trinity.depaulis@tamu.edu</a></td>
+                </tr>
+                <tr> 
+                    <td><strong>LinkedIn</strong></td>
+                    <td><a href="https://www.linkedin.com/in/trinity-depaulis/">trinity-depaulis</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Instagram</strong></td>
+                    <td><a href="https://www.instagram.com/trinitydepaulis/?next=%2F">@trinitydepaulis</a></td>
+                </tr>
+            </table>
+            <h2>My Player's Characters</h2>
+            <ul>
+                <li>
+                    <span>Kana</span>
+                    <span>Female purple orc. Level 10 fighter/Level 2 Warlock Multiclass. Neutral Good.</span>
+                </li>
+                <li>
+                    <span>Ilthal</span>
+                    <span>Male blue dragonborn. Level 12 Moon Circle Druid. Lawful Good</span>
+                </li>
+                <li>
+                    <span>Ayin</span>
+                    <span>Blind male human. Level 12 A'sha/Light Cleric. Lawful Good.</span>
+                </li>
+                <li>
+                    <span>Wren</span>
+                    <span>Meek male human. Level 12 Oathbreaker Paladin. Neutral Good.</span>
+                </li>
+                <li>
+                    <span>Aris</span>
+                    <span>Female grey tiefling. Level 12 Rogue. Lawful Neutral.</span>
+                </li>
+                <li>
+                    <span>Nasser</span>
+                    <span>Traumatized male human. Level 12 Monster Slayer Ranger. Chaotic Neutral.</span>
+                </li>
+                <li>
+                    <span>Greg</span>
+                    <span>Short male dwarf. Level 12 Artificer. True Neutral.</span>
+                </li>
+            </ul>
+            <h2>Vote on Who Sounds the Coolest?</h2>
+            <!-- <form id="myForm" >
+                <input type="radio" id="kana" name="fav_dnd" value="html">
+                <label for="kana">Kana</label><br>
+                <input type="radio" id="ilthal" name="fav_dnd" value="html">
+                <label for="ilthal">Ilthal</label><br>
+                <input type="radio" id="ayin" name="fav_dnd" value="html">
+                <label for="ayin">Ayin</label><br>
+                <input type="radio" id="wren" name="fav_dnd" value="html">
+                <label for="wren">Wren</label><br>
+                <input type="radio" id="aris" name="fav_dnd" value="html">
+                <label for="aris">Aris</label><br>
+                <input type="radio" id="nasser" name="fav_dnd" value="html">
+                <label for="nasser">Nasser</label><br>
+                <input type="radio" id="greg" name="fav_dnd" value="html">
+                <label for="greg">Greg</label><br>
+                <input type="button" value="Submit" onclick="myFunction(myform)">
+            </form> -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfqUanpdX_KZvtLfZcANHnqj0Z9GKJCfFBe-J6SZNA9QFMEA/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</body>
+
+<script>
+    function myFunction (form) {
+    var inputVal = form.fav_dnd.name;
+    alert("You chose" + inputVal );
+}
+</script>
+
+
+</html>

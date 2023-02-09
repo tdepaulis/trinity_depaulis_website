@@ -1,0 +1,144 @@
+/* 
+    Css Doc Needs
+    - Table Formatting
+    - Heading formatting
+        -set font-size
+*/
+body {
+    background-color: rgb(53, 64, 49);
+}
+
+img {
+    height: 400px; 
+    width: auto;
+}
+
+.decor {
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form, input, label {
+    font-family: arial, sans-serif;
+    color: rgb(220, 215, 211);
+    text-align: left;
+    font-size: 25px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    color: rgb(220, 215, 211);
+    /* text-align: left; */
+    font-family: verdana;
+    font-size: 25px;
+}
+
+iframe {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: grey;
+    display: block;
+    border-style:none;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid  rgb(53, 64, 49);
+    text-align: left;
+    padding: 8px;
+    color: rgb(220, 215, 211);
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: darkslategrey;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+h1 {
+    color: rgb(220, 215, 211);
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+}
+
+h2, h3 {
+    color: rgb(220, 215, 211);
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    padding-top: 2%;
+}
+
+a:link, a:visited, a:active {
+    color: rgb(220, 215, 211);
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: rgb(220, 215, 211);
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+
+ul {
+    padding: 1.5rem 1.5rem 1.5rem 6em;
+    color: rgb(220, 215, 211);
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    list-style-image: url('img/sword.png');
+}
+
+iframe {
+    display: center;
+}
+
+li span {
+	display: block;
+}
+
+li span:first-child {
+	font-size: 1.5em;
+}
+
+li span:last-child {
+	font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-child {
+    flex: 1;
+    background-color: rgb(37, 45, 34)
+}  
